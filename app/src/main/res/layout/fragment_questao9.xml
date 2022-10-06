@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Questao9Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_titulo_q9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16sp"
+            android:text="a musica the mountain king's return do summoning se refere a que rei ?"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_q9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rb_q9_item_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="rei Fingolfin alto rei dos noldor" />
+
+            <RadioButton
+                android:id="@+id/rb_q9_item_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="rei anão Thorin I" />
+
+            <RadioButton
+                android:id="@+id/rb_q9_item_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="rei Aragorn em o retorno do rei" />
+
+            <RadioButton
+                android:id="@+id/rb_q9_item_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="rei Elrond" />
+
+            <RadioButton
+                android:id="@+id/rb_q9_item_e"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="rei anão Thorin II Escudo de Carvalho" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_confirmaResposta_q9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Avançar" />
+    </LinearLayout>
+</FrameLayout>

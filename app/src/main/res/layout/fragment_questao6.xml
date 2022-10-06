@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Questao6Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_titulo_q6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16sp"
+            android:text="qual a tradução de amon amarth ?"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_q6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rb_q6_item_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Montanha da perdição" />
+
+            <RadioButton
+                android:id="@+id/rb_q6_item_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Montanhas Azuis" />
+
+            <RadioButton
+                android:id="@+id/rb_q6_item_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="mordor" />
+
+            <RadioButton
+                android:id="@+id/rb_q6_item_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="valfenda" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_confirmaResposta_q6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Avançar" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Questao8Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_titulo_q8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16sp"
+            android:text="carach angren é uma banda holandesa de black metal, \n seu nome é também de uma passagem na terra média, que passagem é essa ?"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_q8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rb_q8_item_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="passagem para moria, mina dos anões" />
+
+            <RadioButton
+                android:id="@+id/rb_q8_item_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="passagem no noroeste de mordor entre gorgoroth e udûn" />
+
+            <RadioButton
+                android:id="@+id/rb_q8_item_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="passagem para valfenda reino de elrond e dos elfos" />
+
+            <RadioButton
+                android:id="@+id/rb_q8_item_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="passagem para númenor" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_confirmaResposta_q8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Avançar" />
+    </LinearLayout>
+</FrameLayout>

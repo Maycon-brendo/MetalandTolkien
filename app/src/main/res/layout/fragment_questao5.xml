@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Questao5Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_titulo_q5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16sp"
+            android:text="qual a linguagem que deu origen ao nome da banda amon amarth?"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_q5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rb_q5_item_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sindarin" />
+
+            <RadioButton
+                android:id="@+id/rb_q5_item_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Khuzdul" />
+
+            <RadioButton
+                android:id="@+id/rb_q5_item_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="na língua sombria de Mordor" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_confirmaResposta_q5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Avançar" />
+    </LinearLayout>
+</FrameLayout>
